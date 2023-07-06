@@ -156,7 +156,8 @@
 
                         </div>
 
-                        <div class="d-flex flex-row">
+                        <div class="d-flex flex-row justify-content-between" style="width: 1200px">
+                            <div>
                             <a href="#" onclick="return back();" class="btn btn-bg-custom btn-sm mt-0 mb-0"
                                 style="margin-left: -1px; font-weight: 700; font-size: 12px;  color: rgb(241, 241, 241);"><i
                                     class="fas fa-chevron-left pr-3" aria-hidden="true"></i>
@@ -164,10 +165,11 @@
                             <a href="#" onclick="return next();" class="btn btn-bg-custom btn-sm mt-0 mb-0"
                                 style="margin-left: -1px; font-weight: 700; font-size: 12px;  color: rgb(241, 241, 241);">
                                 Selanjutnya<i class="fas fa-chevron-right pl-3" aria-hidden="true"></i></a>
+                            </div>
                             <a href="#" onclick="return kirimjawapan();"
-                                class="btn btn-bg-custom btn-sm mt-0 mb-0"
+                                class="btn btn-danger btn-sm mt-0 mb-0"
                                 style="margin-left: -1px; font-weight: 700; font-size: 12px;  color: rgb(241, 241, 241);">
-                                Selesai<i class="fas fa-chevron-right pl-3" aria-hidden="true"></i></a>
+                                Selesaikan Subtest<i class="fa fa-exclamation-triangle pl-3" aria-hidden="true"></i></a>
                         </div>
                     </form>
 
@@ -218,7 +220,7 @@
         startTimer();
 
         function kirimjawapan() {
-            data = confirm("Klik Ok Untuk Mengakhiri Sesi Ujian");
+            data = confirm("Klik ok untuk mengakhiri sesi ujian dan lanjut ke sesi berikutnya ");
             if (data) {
                 $.ajax({
                 type: "POST",
