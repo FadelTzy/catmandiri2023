@@ -18,7 +18,7 @@
                             <div class="pr-5 tex">
 
                                 <h5 class="w-5 mb-5">Selamat Datang Di </h5>
-                                <h1 class="mb-3 font-weight-bold">Aplikasi CAT MANDIRI UNM TAHUN 2022</h1>
+                                <h1 class="mb-3 font-weight-bold">Aplikasi CAT MANDIRI UNM TAHUN 2023</h1>
                             </div>
                             <img src="{{ url('cat') }}/img/icons.png" height="200px" alt="">
 
@@ -27,7 +27,7 @@
                     </div>
                     <div class="card-footer text-center bg-primary text-white">
                         <p class="mb-0">
-                            Rekrutmen Terbuka - Pendamping Lokal Desa Tahun Anggaran 2022
+                            Rekrutmen Terbuka - Pendamping Lokal Desa Tahun Anggaran 2023
                         </p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                             <ul style="list-style-type: numeric;">
                                 <li>
                                     <p class="mb-1 mt-3">Tes Kemampuan Verbal <span class="font-weight-bold">( 25 Soal -
-                                            Waktu 25 Menit )</span></p>
+                                            Waktu 20 Menit )</span></p>
                                     <ul>
                                         <li>
                                             Persamaan kata (sinonim)
