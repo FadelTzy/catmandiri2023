@@ -27,7 +27,7 @@
                     </div>
                     <div class="card-footer text-center bg-primary text-white">
                         <p class="mb-0">
-                            Rekrutmen Terbuka - Pendamping Lokal Desa Tahun Anggaran 2023
+                            SELEKSI CAT MANDIRI UNM TAHUN 2023
                         </p>
                     </div>
                 </div>
